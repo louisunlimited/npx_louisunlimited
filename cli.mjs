@@ -6,7 +6,7 @@ import inquirer from "inquirer";
 import open from "open";
 
 const data = {
-  name: chalk.white("Louis Qian"),
+  name: chalk.cyan.bold("Louis Qian"),
   work_title: chalk.white("Software Engineering Intern"),
   work_company: chalk.hex("#e21e26").bold("tastytrade"),
   github: chalk.blue("https://github.com/louisunlimited"),
@@ -57,9 +57,9 @@ const questions = [
     message: "What would you like to do?",
     choices: [
       {
-        name: `Schedule a ${chalk.redBright.bold(
-          "Meeting"
-        )} via ${chalk.blueBright.bold("Calendly")}?`,
+        name: `Schedule a ${chalk.bold("meeting")} via ${chalk.blueBright.bold(
+          "Calendly"
+        )}?`,
         value: () => {
           open("https://calendly.com/louisqy26/meeting-with-louis");
           console.log("See you soon!!!");
