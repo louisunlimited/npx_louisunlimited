@@ -12,7 +12,7 @@ const data = {
   github: chalk.blue("https://github.com/louisunlimited"),
   linkedin: chalk.blue("https://linkedin.com/in/louis-qian"),
   twitter: chalk.blue("https://twitter.com/louis_unlimited"),
-  web: chalk.blue("https://louisunlimited.com"),
+  web: chalk.blue.bold("https://louisunlimited.com"),
   card: chalk.white.bold("npx louisunlimited"),
 };
 
