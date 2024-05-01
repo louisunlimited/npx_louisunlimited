@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import chalk from "chalk";
 import boxen from "boxen";
+import chalk from "chalk";
 import inquirer from "inquirer";
 import open from "open";
 
