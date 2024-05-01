@@ -68,7 +68,7 @@ const questions = [
       {
         name: `Just ${chalk.greenBright.bold("Quit")}?`,
         value: () => {
-          console.log("Goodbye!");
+          console.log("Goodbye! Hope to see you soon!");
         },
       },
     ],
