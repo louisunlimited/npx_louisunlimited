@@ -2,11 +2,11 @@
   "name": "louisunlimited",
   "version": "1.0.0",
   "description": "My Portfolio CLI!",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Louis Qian",
   "license": "ISC",
-  "bin": "./bin.js"
+  "bin": "./cli.js"
 }
