@@ -62,7 +62,7 @@ const questions = [
         )}?`,
         value: () => {
           open("https://calendly.com/louisqy26/meeting-with-louis");
-          console.log("See you soon!!!");
+          console.log("Can't wait to meet you!!!");
         },
       },
       {
