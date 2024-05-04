@@ -7,13 +7,13 @@ import open from "open";
 
 const data = {
   name: chalk.cyan.bold("Louis Qian"),
-  work_title: chalk.white("Software Engineering Intern"),
+  work_title: chalk.bold("Software Engineering Intern"),
   work_company: chalk.hex("#e21e26").bold("tastytrade"),
   github: chalk.blue("https://github.com/louisunlimited"),
   linkedin: chalk.blue("https://linkedin.com/in/louis-qian"),
   twitter: chalk.blue("https://twitter.com/louis_unlimited"),
   web: chalk.blue.bold("https://louisunlimited.com"),
-  card: chalk.white.bold("npx louisunlimited"),
+  card: chalk.bold("npx louisunlimited"),
 };
 
 console.log(
