@@ -11,5 +11,5 @@ Feel free to play around with the package and let me know if you have any feedba
 ## Usage
 
 ```bash
-npx npx_louisunlimited
+npx louisunlimited
 ```
