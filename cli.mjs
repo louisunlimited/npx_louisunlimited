@@ -7,8 +7,6 @@ import open from "open";
 
 const data = {
   name: chalk.cyan.bold("Louis Qian"),
-  work_title: chalk.bold("Software Engineering Intern"),
-  work_company: chalk.hex("#e21e26").bold("tastytrade"),
   github: chalk.blue("https://github.com/louisunlimited"),
   linkedin: chalk.blue("https://linkedin.com/in/louis-qian"),
   twitter: chalk.blue("https://twitter.com/louis_unlimited"),
@@ -26,7 +24,7 @@ console.log(
         '----- (O.0)
                (> <)
 
-Work: ${data.work_title} @ ${data.work_company}
+Nice to meet you! Here are some links to my profiles:
 
 GitHub: ${data.github}
 LinkedIn: ${data.linkedin}
